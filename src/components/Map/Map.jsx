@@ -9,7 +9,7 @@ const Map = ({setCoords,setBounds,coordinates,places,setChildClicked,weatherData
   const matches = useMediaQuery('(min-width:600px)');
   return (
     <div className={classes.mapContainer}>
-      <GoogleMapReact bootstrapURLKeys={{key:'AIzaSyDrKk9NmAYCZ9l_cWgOmLmy95zl9a3SF2Q'}}
+      <GoogleMapReact bootstrapURLKeys={{key:''}}
         defaultCenter={coordinates}
         center={coordinates}
         defaultZoom={14}
